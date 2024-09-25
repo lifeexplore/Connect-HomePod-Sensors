@@ -4,8 +4,8 @@
 - platform: template
   # 传感器列表
   sensors:
-    # 实体名称：小写，下划线
     kitchen_temperature:
+      # 实体名称：小写，下划线
       unique_id: "kitchen_temperature"  
       # （可选）传感器数值的单位
       unit_of_measurement: '℃'
