@@ -1,0 +1,18 @@
+# 定时每两分钟触发Homekit
+alias: Homekit - Sensor Collection
+description: Processes temperature and humidity data from the HomePod Mini
+trigger:
+  - platform: time_pattern
+    minutes: /2
+    id: time
+action:
+  - target:
+      entity_id: input_boolean.homekit_sensors_update
+    action: input_boolean.turn_on
+    data: {}
+  - delay: "00:00:05"
+  - target:
+      entity_id: input_boolean.homekit_sensors_update
+    action: input_boolean.turn_off
+    data: {}
+mode: single
