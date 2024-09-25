@@ -16,3 +16,8 @@
 主要的参考：
 	https://community.home-assistant.io/t/how-to-integrate-homepod-mini-sensors-into-home-assistant-when-direct-integration-isnt-possible/665074/3	    
 		    
+步骤：
+	1. 在configuration.yaml中增加定义boolean；
+	2. 通过Homekit Bridge将boolean传递给Homekit；
+	3. 定义传感器；
+	4. 设置Homekit的自动化进程
