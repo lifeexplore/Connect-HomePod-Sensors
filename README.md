@@ -22,4 +22,4 @@
 	3. 定义传感器；
 	4. 设置HomeAssitant下的自动化：timer_to_homekit；
 	5. 从HomeAssistant获取授权的长效Token；
-	4. 设置Homekit的自动化进程-auomation_1.pnz到automation_4.pnz
+	4. 设置Homekit的自动化进程-auomation_1.png到automation_4.png
