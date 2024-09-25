@@ -20,5 +20,5 @@
 	1. 在configuration.yaml中增加定义boolean；
 	2. 通过Homekit Bridge将boolean传递给Homekit；
 	3. 定义传感器；
-	4. 设置HomeAssitant下的自动化：timer_to——homekit；
+	4. 设置HomeAssitant下的自动化：timer_to_homekit；
 	4. 设置Homekit的自动化进程。
