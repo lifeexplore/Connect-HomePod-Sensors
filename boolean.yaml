@@ -1,0 +1,5 @@
+#在configuration.yaml中添加
+input_boolean:
+  homekit_sensors_update:
+    name: Collection of HomeKit Sensors
+    initial: off
