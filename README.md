@@ -27,4 +27,5 @@ Homekit设置说明：
 	1. HomeKit Bridge设置的Boolean为触发器；
 	2. 在Home App下的自动化直接编程，不需要单独的捷径，这样iPhone不参与数据的更新；
 	3. 获得的数据类型可以选择，需要选择为数字类型，这样可以统计，追寻历史；
-	4. attributes下的项目是：device_class, state_class, unit_of_measurement, friendly_name和icon。_	    
+	4. attributes下的项目是：device_class, state_class, unit_of_measurement, friendly_name和icon。
+	5. POST的头设置：Authorization，Bearer xxxxxxxxxxxxxxxx(HomeAssistant的token)
